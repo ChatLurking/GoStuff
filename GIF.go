@@ -18,10 +18,10 @@ const (
 )
 
 func main() {
-	lissajous(os.Stdout)
+	Stuff(os.Stdout)
 }
 
-func lissajous(out io.Writer) {
+func Stuff(out io.Writer) {
 	const (
 		cycles = 5
 		res = 0.001
